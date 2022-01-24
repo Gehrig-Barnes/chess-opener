@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <ChessPage />
+      <ChessPage openings={openings}/>
       <Footer />
     </div>
   );

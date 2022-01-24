@@ -1,15 +1,14 @@
 import React from 'react';
 
-import HistoricPlayersContainer from './HistoricPlayersContainer'
 import OpeningsContainer from './OpeningsContainer'
 import SelectedOpeningContainer from './SelectedOpeningContainer'
+import SubmitOpenings from "./SubmitOpening"
 
 
-function ChessPage({}) {
+function ChessPage({openings}) {
   return (
   <div>
-    <HistoricPlayersContainer />
-    <OpeningsContainer />
+    <OpeningsContainer openings={openings}/>
     <SelectedOpeningContainer />
   </div>
   );
