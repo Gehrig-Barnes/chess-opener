@@ -1,9 +1,13 @@
 import React from 'react';
 
-export default function OpeningsContainer() {
-  return <div>
-  <OpeningsCard />
-  <SubmitOpening />
+import OpeningsCard from './OpeningsCard'
+import SubmitOpening from './SubmitOpening'
+
+function OpeningsContainer() {
+  return 
+  <div>
+    <OpeningsCard />
+    <SubmitOpening />
   </div>;
 }
 

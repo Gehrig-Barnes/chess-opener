@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function SubmitOpening() {
-  return <div></div>;
+function SubmitOpening() {
+  return <button>Submit Openings</button>;
 }
 
-export default SubmitOpening; 
+export default SubmitOpening;  

@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function OpeningNotes() {
-  return <div></div>;
+function OpeningNotes() {
+  return <div>Opening Notes</div>;
 }
 
-export default OpeningNotes;
+export default OpeningNotes; 

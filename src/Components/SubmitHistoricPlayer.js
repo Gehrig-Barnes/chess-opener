@@ -1,8 +1,7 @@
 import React from 'react';
 
-export default function SubmitHistoricPlayer() {
-  return <div></div>;
+function SubmitHistoricPlayer() {
+  return <div>Submit Historic Players</div>;
 }
 
 export default SubmitHistoricPlayer;
- 

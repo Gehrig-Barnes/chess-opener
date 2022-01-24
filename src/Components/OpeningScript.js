@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function OpeningScript() {
-  return <div></div>;
+function OpeningScript() {
+  return <div>Openings Script</div>;
 }
 
-export default OpeningScript;
+export default OpeningScript;  

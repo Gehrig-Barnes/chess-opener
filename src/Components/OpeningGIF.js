@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function OpeningGIF() {
-  return <div></div>;
+function OpeningGIF() {
+  return <div>Opening GIF</div>;
 }
 
 export default OpeningGIF;

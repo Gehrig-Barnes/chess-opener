@@ -1,12 +1,14 @@
 import React from 'react';
 
 import HistoricPlayerCard from './HistoricPlayerCard'
+import SubmitHistoricPlayer from './SubmitHistoricPlayer'
 
-export default function HistoricPlayers() {
-  return <div>
-  <HistoricPlayerCard />
-  <SubmitHistoricPlayer />
+function HistoricPlayersContainer() {
+  return 
+  <div>
+    <HistoricPlayerCard />
+    <SubmitHistoricPlayer />
   </div>;
 }
 
-export default HistoricPlayersContainer;
+export default HistoricPlayersContainer; 

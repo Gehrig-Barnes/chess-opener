@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function OpeningsCard() {
-  return <div></div>;
+function OpeningsCard() {
+  return <div>Openings Card</div>;
 }
 
 export default OpeningsCard;

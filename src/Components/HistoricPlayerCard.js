@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function HistoricPlayerCard() {
-  return <div></div>;
+function HistoricPlayerCard() {
+  return <div>Historic Players Card</div>;
 }
 
-export default  HistoricPlayerCard; 
+export default  HistoricPlayerCard;   
