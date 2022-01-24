@@ -4,11 +4,12 @@ import HistoricPlayerCard from './HistoricPlayerCard'
 import SubmitHistoricPlayer from './SubmitHistoricPlayer'
 
 function HistoricPlayersContainer() {
-  return 
+  return (
   <div>
     <HistoricPlayerCard />
     <SubmitHistoricPlayer />
-  </div>;
+  </div>
+  );
 }
 
-export default HistoricPlayersContainer; 
+export default HistoricPlayersContainer;  

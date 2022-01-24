@@ -4,11 +4,12 @@ import OpeningsCard from './OpeningsCard'
 import SubmitOpening from './SubmitOpening'
 
 function OpeningsContainer() {
-  return 
+  return (
   <div>
     <OpeningsCard />
     <SubmitOpening />
-  </div>;
+  </div>
+  );
 }
 
-export default OpeningsContainer;
+export default OpeningsContainer; 

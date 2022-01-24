@@ -1,7 +1,9 @@
 import React from 'react';
 
 function SubmitHistoricPlayer() {
-  return <div>Submit Historic Players</div>;
+  return (
+  <button>Submit Historic Players</button>
+  );
 }
 
 export default SubmitHistoricPlayer;

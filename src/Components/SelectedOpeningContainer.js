@@ -5,12 +5,13 @@ import OpeningScript from './OpeningScript'
 import OpeningNotes from './OpeningNotes'
 
 function SelectedOpeningContainer() {
-  return 
+  return (
   <div>
     <OpeningGIF />
     <OpeningScript />
     <OpeningNotes />
-  </div>;
+  </div>
+  );
 }
 
-export default SelectedOpeningContainer;
+export default SelectedOpeningContainer; 

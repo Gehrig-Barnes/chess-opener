@@ -6,11 +6,13 @@ import SelectedOpeningContainer from './SelectedOpeningContainer'
 
 
 function ChessPage() {
-  return <div>
+  return (
+  <div>
     <HistoricPlayersContainer />
     <OpeningsContainer />
     <SelectedOpeningContainer />
-  </div>;
+  </div>
+  );
 }
 
-export default ChessPage;
+export default ChessPage; 
