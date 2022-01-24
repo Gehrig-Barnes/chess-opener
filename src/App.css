@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* NAVIGATION BAR */
+
+.nav-div {
+  height: 5vh;
+  color: white;
+  background-color: black;
+  align-items: center;
+}
+
+
+/* Historic Players Container */
+
+.historic-players-container-div {
+  height: 30vh;
+  border-style: solid;
+}
+
+/* Openings Container */
+
+.openings-container-div {
+  height: 30vh;
+  border-style: solid;
+}
+
+/* Selected Openings Container */
+
+.selected-openings-container-div {
+  height: 30vh;
+  border-style: solid;
+}
+
+/* FOOTER BAR */
+
+.footer-div {
+  height: 5vh;
+  color: white;
+  background-color: black;
+}
+

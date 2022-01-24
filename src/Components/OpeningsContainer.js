@@ -5,7 +5,7 @@ import SubmitOpening from './SubmitOpening'
 
 function OpeningsContainer() {
   return (
-  <div>
+  <div class="openings-container-div">
     <OpeningsCard />
     <SubmitOpening />
   </div>

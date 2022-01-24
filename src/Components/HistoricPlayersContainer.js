@@ -5,7 +5,7 @@ import SubmitHistoricPlayer from './SubmitHistoricPlayer'
 
 function HistoricPlayersContainer() {
   return (
-  <div>
+  <div class="historic-players-container-div">
     <HistoricPlayerCard />
     <SubmitHistoricPlayer />
   </div>

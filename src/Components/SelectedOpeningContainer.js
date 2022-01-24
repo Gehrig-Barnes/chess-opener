@@ -6,7 +6,7 @@ import OpeningNotes from './OpeningNotes'
 
 function SelectedOpeningContainer() {
   return (
-  <div>
+  <div class="selected-openings-container-div">
     <OpeningGIF />
     <OpeningScript />
     <OpeningNotes />
