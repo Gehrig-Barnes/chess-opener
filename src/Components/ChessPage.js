@@ -5,7 +5,7 @@ import OpeningsContainer from './OpeningsContainer'
 import SelectedOpeningContainer from './SelectedOpeningContainer'
 
 
-function ChessPage() {
+function ChessPage({}) {
   return (
   <div>
     <HistoricPlayersContainer />

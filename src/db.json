@@ -1,0 +1,35 @@
+{
+    "openings": [
+      {
+        "id": 1,
+        "name": "Scotch",
+        "difficulty": "easy",
+        "color": "white",
+        "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/bUMwS2d2NVFsQg,,.gif",
+        "gambit": true,
+        "moves": "e4, e5, Nf3, Nc6, d4",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "name": "Ruy Lopez",
+        "difficulty": "easy",
+        "color": "White",
+        "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/bUMwS2d2NVFmSA,,.gif",
+        "gambit": false,
+        "moves": "e4, e5, Nf3, Nc6, Bb5",
+        "link": ""
+      },
+      {
+        "id": 3,
+        "name": "Open Sicilian",
+        "difficulty": "intermediate",
+        "color": "black",
+        "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/1/bUNZSWd2.gif",
+        "gambit": false,
+        "moves": "e4, c5, Nf3",
+        "link": ""
+      }
+      
+    ]
+  }
