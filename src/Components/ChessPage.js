@@ -5,10 +5,10 @@ import SelectedOpeningContainer from './OpeningDetails'
 
 
 
-function ChessPage({openings}) {
+function ChessPage({openings, handleRemoveCard}) {
   return (
   <div>
-    <OpeningsContainer openings={openings}/>
+    <OpeningsContainer openings={openings} handleRemoveCard={handleRemoveCard}/>
     
   </div>
   );
