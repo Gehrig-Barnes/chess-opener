@@ -4,17 +4,22 @@ import {useParams, useHistory, Link} from 'react-router-dom';
 
 
 function OpeningDetails() {
-  const [opening, setOpening] = useState([])
+  const [opening, setOpening] = useState(null)
+  const [isLoaded, setIsLoaded] = useState(false);
+
   const {id} = useParams();
   
 
   useEffect(() => {
     fetch(`http://localhost:3000/openings/${id}`)
       .then((r) => r.json())
-      .then((data) => {
-        setOpening(data);
+      .then((opening) => {
+        setOpening(opening);
+        setIsLoaded(true);
       });
   }, [id]);
+
+  if (!isLoaded) return <h2>Loading...</h2>;
 
 console.log(opening)
 

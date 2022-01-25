@@ -13,8 +13,15 @@ function App() {
   useEffect(() => {
     fetch("http://localhost:3000/openings")
       .then((r) => r.json())
-      .then(setOpenings);
+      .then((data)=> setOpenings(data));
   }, []);
+
+  function handleAddOpening(newOpening){
+    const newOpeningArray = [newOpening, ...openings];
+    setOpenings(newOpeningArray)
+  }
+  
+
 
   return (
     <div className="App">
@@ -22,7 +29,7 @@ function App() {
        <Switch>
 
         <Route path="/openings/new" component={
-          () => <SubmitOpening  /> 
+          () => <SubmitOpening  onAddOpening={handleAddOpening}/> 
         } />
 
         <Route path="/openings/:id" component={OpeningDetails}/>
