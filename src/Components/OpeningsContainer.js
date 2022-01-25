@@ -25,4 +25,4 @@ function OpeningsContainer({openings}) {
   );
 }
 
-export default OpeningsContainer; 
+export default OpeningsContainer;  

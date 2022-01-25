@@ -14,4 +14,4 @@ function OpeningsCard({name, difficulty, color, image, moves, link, id}) {
   );
 }
 
-export default OpeningsCard;
+export default OpeningsCard; 
