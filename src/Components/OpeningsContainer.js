@@ -1,19 +1,25 @@
 import React from 'react';
 
 import OpeningsCard from './OpeningsCard'
-import SubmitOpening from './SubmitOpening'
+
 
 function OpeningsContainer({openings}) {
 
-  console.log(openings)
+  
   return (
-  <div class="openings-container-div">
+  <div className="openings-container-div">
     {openings.map((opening) => {
       return (
-        <OpeningsCard
-          key={opening.id} name={opening.name} difficulty={opening.difficulty} color={opening.color} image={opening.image} moves={opening.moves} link={opening.link}
-        />
-        )
+      <OpeningsCard 
+      key={opening.id} 
+      name={opening.name}
+      difficulty={opening.difficulty}
+      color={opening.color}
+      image={opening.image}
+      movies={opening.move}
+      link={opening.link} 
+      id={opening.id}
+      />)
     })}
   </div>
   );

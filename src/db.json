@@ -6,9 +6,8 @@
         "difficulty": "easy",
         "color": "white",
         "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/bUMwS2d2NVFsQg,,.gif",
-        "gambit": true,
         "moves": "e4, e5, Nf3, Nc6, d4",
-        "link": ""
+        "link": "https://www.youtube.com/embed/LdqbaqdHkPE"
       },
       {
         "id": 2,
@@ -16,17 +15,15 @@
         "difficulty": "easy",
         "color": "White",
         "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/bUMwS2d2NVFmSA,,.gif",
-        "gambit": false,
         "moves": "e4, e5, Nf3, Nc6, Bb5",
-        "link": ""
+        "link": "https://www.youtube.com/embed/41rPFNY_CAY&t=82s&ab_channel=thechesswebsite"
       },
       {
         "id": 3,
         "name": "Open Sicilian",
-        "difficulty": "intermediate",
+        "difficulty": "medium",
         "color": "black",
         "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/1/bUNZSWd2.gif",
-        "gambit": false,
         "moves": "e4, c5, Nf3",
         "link": ""
       }
