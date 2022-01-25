@@ -3,14 +3,15 @@ import React from 'react';
 import OpeningsCard from './OpeningsCard'
 
 
-function OpeningsContainer({openings}) {
+function OpeningsContainer({openings, handleRemoveCard}) {
 
   
   return (
   <div className="openings-container-div">
     {openings.map((opening) => {
       return (
-      <OpeningsCard 
+      <OpeningsCard
+      opening={opening} 
       key={opening.id} 
       name={opening.name}
       difficulty={opening.difficulty}
@@ -19,6 +20,7 @@ function OpeningsContainer({openings}) {
       movies={opening.move}
       link={opening.link} 
       id={opening.id}
+      handleRemoveCard={handleRemoveCard}
       />)
     })}
   </div>
