@@ -6,7 +6,7 @@ function Nav() {
   return (
   <header class="links">
     <div class='diary'>
-      <Link className="link" to="/">
+      <Link className="link" to="/home">
         <h1>Chess Diary</h1>
       </Link>
     </div>

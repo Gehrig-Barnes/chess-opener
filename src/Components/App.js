@@ -3,16 +3,16 @@ import React, {useEffect, useState} from 'react';
 import Nav from './Nav'
 import ChessPage from './ChessPage'
 import OpeningDetails from "./OpeningDetails"
-
 import SubmitOpening from './SubmitOpening'
 import {Route, Switch} from 'react-router-dom'
-
 import Home from "./Home"
 
+
 function App() {
-  const [players, setPlayers] = useState([])
+  const [players, setPlayers] = useState([]);
   const [openings, setOpenings] = useState([]);
-  const [removeRequest, setRemoveRequest] = useState(false)
+  const [removeRequest, setRemoveRequest] = useState(false);
+  
 
   
 
@@ -63,6 +63,7 @@ function App() {
         <Route path="/" component={
           () => <Home players={players}/>
         }/>
+
 
         
         
