@@ -7,15 +7,27 @@ import OpeningDetails from "./OpeningDetails"
 import SubmitOpening from './SubmitOpening'
 import {Route, Switch} from 'react-router-dom'
 
+import Home from "./Home"
+
 function App() {
+  const [players, setPlayers] = useState([])
   const [openings, setOpenings] = useState([]);
   const [removeRequest, setRemoveRequest] = useState(false)
+
+  
 
   useEffect(() => {
     fetch("http://localhost:3000/openings")
       .then((r) => r.json())
       .then((data)=> setOpenings(data));
   }, [removeRequest]);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/players")
+      .then((r) => r.json())
+      .then((data)=> setPlayers(data));
+  }, []);
+
 
   function handleAddOpening(newOpening){
     const newOpeningArray = [newOpening, ...openings];
@@ -48,7 +60,9 @@ function App() {
           () => <ChessPage openings={openings} handleRemoveCard={handleRemoveCard}/>
         } />
 
-    
+        <Route path="/" component={
+          () => <Home players={players}/>
+        }/>
 
         
         
