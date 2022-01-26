@@ -1,5 +1,5 @@
+import '../css/OpeningsContainer.css'
 import React from 'react';
-
 import OpeningsCard from './OpeningsCard'
 
 

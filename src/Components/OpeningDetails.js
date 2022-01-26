@@ -1,5 +1,5 @@
+import '../css/OpeningDetails.css'
 import React, { useEffect, useState } from "react";
-
 import {useParams, useHistory, Link} from 'react-router-dom';
 
 

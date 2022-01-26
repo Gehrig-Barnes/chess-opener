@@ -1,3 +1,4 @@
+import '../css/SubmitOpening.css'
 import React, {useState, useEffect} from 'react';
 
 function SubmitOpening({onAddOpening}) {

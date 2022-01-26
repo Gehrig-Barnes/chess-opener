@@ -27,5 +27,87 @@
       "moves": "e4, c5, Nf3",
       "link": ""
     }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "Garry Kasparov",
+      "image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/php8tihCG.jpeg",
+      "birthplace": "Baku, Azerbaijan",
+      "years": "April 13, 1963 - PRESENT",
+      "facts": "GM Garry Kasparov is the 13th world champion and held the title from 1985 to 2000. He first reached the number-one ranking in 1984 and with a few minor exceptions remained the number-one player in the world until 2006. Kasparov dominated the chess world for over 20 years. Kasparov reached his peak rating of 2856 on March 3, 2000—at the time an unprecedented number and a record that wasn't broken until Carlsen surpassed it. In 1985 Kasparov defeated Karpov to become the youngest world champion ever at the age of roughly 22 and a half. He defended the world championship title against Karpov on three consecutive occasions in 1986, 1987 and 1990. In 1993, he broke away from FIDE and started the PCA—this break would create two different world championships until the reunification match between Kramnik and Topalov in 2006. Kasparov defended his title by defeating GM Nigel Short in 1993 and successfully defended his title again by defeating Anand in 1995. Kasparov and Lasker are the only two world champions to defend their titles successfully five times. In 2000 Kramnik defeated Kasparov, ending the reign of the best player of all time as world champion. However, Kasparov would continue playing in (and winning) tournaments until his retirement in 2005—he left the game as the number-one player in the world. Kasparov has remained active in the chess world after his effective retirement. He has played exhibition matches and even trained Carlsen and GM Hikaru Nakamura. His five-volume series titled My Great Predecessors is considered one of the best chess books ever."
+    },
+    {
+      "id": 2,
+      "name": "Magnus Carlsen",
+      "image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpZd87D3.jpeg",
+      "birthplace": "Tønsberg, Norway",
+      "years": "November 30, 1990 - PRESENT",
+      "facts": "GM Magnus Carlsen is the reigning world champion for all three time controls (standard, rapid and blitz). In 2009 he became the youngest player in history to reach the 2800-rating threshold, and on April 21, 2014, he reached his peak rating and the highest rating ever at 2889. Carlsen has been the number-one ranked player since 2011 and has been dominating the game ever since. As of February 2020, Carlsen has been on a 120-game undefeated streak in standard time controls, another record for the world champion. His resume is already more than enough to be considered number two on this list of the best players of all time, but Carlsen is only 29 years old and may not have even reached his peak playing strength! Carlsen became the world champion by defeating Anand in 2013 just before turning 23 years old (the second-youngest world champion ever, behind only Kasparov). He has successfully defended his title three times: in 2014 Carlsen won the rematch against Anand, in 2016 he defeated GM Sergey Karjakin and in 2018 he defeated GM Fabiano Caruana. Carlsen himself does not believe he has earned the #1 spot on this list. According to an interview in January 2020, Carlsen states: \"Kasparov had 20 years uninterrupted as the world number 1...He must be considered as the best in history. But I feel that time is on my side...I'm not 30 yet. If I were to be considered the best in history at 30, I would have had to start dominating at 10.\""
+    },
+    {
+      "id": 3,
+      "name": "Bobby Fischer",
+      "image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpPzRNDo.jpeg",
+      "birthplace": "Chicago, IL",
+      "years": "March 9, 1943 - January 17, 2008",
+      "facts": "GM Bobby Fischer was the 11th official world champion as well as the first and only American world champion. He is considered by many to be the most famous chess player ever. From 1970 to 1971 Fischer won 20 consecutive games against world-class opposition, an unprecedented and mind-boggling achievement that will most likely never be equaled. This feat is counted among the seven most amazing chess records. In 1972 Fischer defeated Spassky in the \"Match of the Century\" and was crowned world champion, despite starting the match with a 0-2 score after throwing away game one in a completely equal endgame and not even showing up for game two. Fischer's dismantling of the Soviet chess empire from 1970 to 1972 during the midst of the Cold War is considered one of the greatest individual performances of all time. His style was unique, original and creative. He could attack and defend with the best of them, but he also showed a very deep and almost scary positional understanding. Fischer inspired multiple generations of chess players in the U.S. and around the world. Fischer's \"Game of the Century\" is one of the most famous chess games of all time, and his book titled My 60 Memorable Games is considered one of the best chess books in history."
+    },
+    {
+      "id": 4,
+      "name": "Jose Raul Capablanca",
+      "image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpshNZI7.jpeg",
+      "birthplace": "Havana, Cuba",
+      "years": "November 19, 1888 - March 8, 1942",
+      "facts": "Jose Raul Capablanca was the third official world champion and possibly the most talented chess player ever to play the game. From 1916 through 1924 he amassed a tournament record of 40 wins and 23 draws, an unprecedented feat at the time and still a historically significant achievement. Capablanca's talent and skill were unmatched during his eight-year period. Capablanca became world champion by defeating the legendary Lasker in 1921. Many believe that Capablanca would have defeated Lasker had he been given the chance before 1921, and many believe that he would have reclaimed the title had he been given an opportunity for a rematch with Alekhine. Unfortunately for Capablanca, his peak playing time happened both during and between World War I and World War II. Every world champion and contender is well-rounded, but Capablanca had a special gift for the endgame. Even now (in the engine era of chess) it is difficult to poke holes in his endgame play. Irving Chernev's book Capablanca's Best Chess Endings is a classic. Going eight years without a single loss and becoming world champion are something the chess world won't ever see again, and only Capablanca achieved this feat."
+    },
+    {
+      "id": 5,
+      "name": "Anatoly Karpov",
+      "image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpdt1bzC.jpeg",
+      "birthplace": "Zlatoust, Russia",
+      "years": "May 23, 1951 - PRESENT",
+      "facts": "GM Anatoly Karpov was the 12th world champion and reigned from 1975 to 1985 while also being the FIDE world champion from 1993 to 1999. Karpov was an exceptionally well-rounded player, but his specialty was positional binds, prophylactic play, and wonderful endgame technique. Karpov became world champion by default when Fischer withdrew from their 1975 match because his demands weren't met. Karpov defended his crown by defeating GM Viktor Korchnoi in 1978 and again in 1981. In 1984 Karpov would have his first meeting with Kasparov, and the chess world was changed forever. In the first of five matches between the two legendary titans, the match was called early with Karpov leading five wins, three losses, and 40 draws. In 1985 Kasparov defeated Karpov and claimed the chess crown. They played again in 1986, 1987 and 1990 and when their matches were concluded their lifetime record in world championship matches was 19 wins for Karpov, 21 wins for Kasparov and 104 draws! In 1993 Kasparov broke away from FIDE (creating the PCA), and Karpov became the FIDE world champion. Karpov defended his FIDE world champion title by defeating GM Jan Timman in 1993, GM Gata Kamsky in 1996 and Anand in 1998 (on tiebreaks). Karpov refused to play in the 1999 FIDE world championship tournament after FIDE changed their rules. Karpov's legendary games continue to be a source of inspiration for all positional and endgame players today. Tibor Karolyi's two-volume work titled Karpov's Strategic Wins is considered one of the best chess books ever written."
+    },
+    {
+      "id": 6,
+      "name": "Mikhail Botvinnik",
+      "image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpUm0W1e.jpeg",
+      "birthplace": "Repino, Saint Petersburg, Russia",
+      "years": "August 17, 1911 - May 5, 1995",
+      "facts": "GM Mikhail Botvinnik is known as the \"father of the Soviet chess school.\" The sixth world champion reigned from 1948 to 1963 (with two brief intermissions) and was a top player for over 30 years. Botvinnik's style was dictated by iron logic and flexibility, although he was extremely talented with methodical and strategical planning. His flexible style allowed him to adapt to all different types of playing styles. He became world champion in 1948, defended his title against GM David Bronstein in 1951 and defeated GM Vassily Smyslov in 1954. In 1957 Smyslov defeated Botvinnik, who won their rematch the following year (at that time the world champion had the right to a rematch if they lost the title). In 1960 Botvinnik was defeated by Tal, but history repeated itself as Botvinnik won their rematch in 1961. Although his reign as world champion was brought to an end by Petrosian in 1963, Botvinnik continued to play at a high level until his retirement in 1970. Botvinnik started his chess school in 1963, and he was the teacher of three future world champions (Karpov, Kasparov, and Kramnik)."
+    },
+    {
+      "id": 7,
+      "name": "Vladimir Kramnik",
+      "image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpOdRhuy.jpeg",
+      "birthplace": "Tuapse, Russia",
+      "years": "June 25, 1975 - PRESENT",
+      "facts": "GM Vladimir Kramnik was world champion from 2000 to 2007. He became the classical world champion by dethroning the legendary Kasparov in 2000, defended his title in 2004 against GM Peter Leko and in 2006 faced the FIDE world champion Topalov in a title unification match. Kramnik defeated Topalov to become the first undisputed world champion since Kasparov in 1993. At his peak, Kramnik's game had absolutely no weak points—he could do it all. He was known for his fantastic endgame play and his clean, tenacious and positional style. Kramnik is considered one of the most difficult players to defeat in the history of the game. Kramnik was a top player for over 25 years before retiring in January 2019."
+    },
+    {
+      "id": "8",
+      "name": "Emanuel Lasker",
+      "image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpxckot1.jpeg",
+      "birthplace": "Barlinek, Poland",
+      "years": "December 24, 1868 - January 11, 1941",
+      "facts": "Emanuel Lasker was the second official world champion and held the title for 27 years. His reign from 1894 to 1921 is the longest of any world chess champion, and his playing career lasted five decades. Lasker defeated the first official world champion Wilhelm Steinitz in 1894, and he defended his title five times against a host of world-class contenders, including Frank Marshall, Siegbert Tarrasch, David Janowsky, and Carl Schlechter. In 1921 Lasker lost the title to Capablanca but continued to play at the highest level. He placed third in the 1935 Moscow tournament at the age of 66, half a point behind Botvinnik and Salo Flohr, but ahead of Capablanca, the first women's world champion Vera Menchik and 15 other masters."
+    },
+    {
+      "id": "9",
+      "name": "Mikhail Tal",
+      "image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpBCG5uI.jpeg",
+      "birthplace": "Riga, Latvia",
+      "years": "November 9, 1936 - June 28, 1992",
+      "facts": "GM Mikhail Tal, also known as the \"Magician from Riga,\" was the eighth official world champion. He defeated Botvinnik in 1960 to earn the crown at the age of 23 and a half, becoming the youngest world champion in history at the time (although this record was broken by both Kasparov and Carlsen). Known for his brilliant and unique attacking style, Tal's approach to the game has been an inspiration for attacking players for decades. One of his famous bone-chilling quotes is, \"You must take your opponent into a deep dark forest where 2+2=5, and the path leading out is only wide enough for one.\" His game collection The Life and Games of Mikhail Tal is a chess classic and considered one of the greatest chess books of all time."
+    },
+    {
+      "id": "10",
+      "name": "Alexander Alekhine",
+      "image": "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phptKOeOK.jpeg",
+      "birthplace": "Moscow, Russia",
+      "years": "October 31, 1892 - March 24, 1946",
+      "facts": "Alexander Alekhine was the fourth official world champion and held the title from 1927 to 1946 (with an exception during 1935-1937). He was a brilliant and well-rounded player with a special ability for combinational play in complex positions. He also taught the chess world that rules and principles can be broken based on concrete analysis of the specific and unique position. Alekhine became world champion by defeating Jose Raul Capablanca in 1927, despite being a large underdog (he had never won a single game against Capablanca before the match). Alekhine's reign as world champion was long, but he successfully defended his title only twice (both times against GM Efim Bogoljubow in 1929 and 1934). Capablanca and Alekhine never had a rematch for the world championship due to various reasons. Alekhine faced GM Max Euwe for the world championship in 1935 and surprisingly lost the match. Two years later Alekhine won the rematch against Euwe to earn the crown back, but he would never defend it again. He passed away in 1946 as the world champion, the only champion ever to do so (although he was finalizing the details to play a match with Botvinnik)."
+    }
   ]
 }
