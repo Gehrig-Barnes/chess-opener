@@ -12,7 +12,7 @@ function OpeningsCard({name, difficulty, color, image, moves, link, id, handleRe
   
 
   return (
-  <div>
+  <div class="opening-card">
     <h3>{name}</h3>
           <p>
           <Link to={`openings/${id}`}>See more</Link>
@@ -22,6 +22,6 @@ function OpeningsCard({name, difficulty, color, image, moves, link, id, handleRe
     
   </div>
   );
-}
+} 
 
 export default OpeningsCard; 

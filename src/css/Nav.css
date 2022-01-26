@@ -1,35 +1,61 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
- .links {
-    background-color: #34568b;
-    font-family: "Montserrat", san-serif;
-    background-color: #f44336;
-    
+
+ .navBar {
+    /* border: 1px solid white; */
+    padding-top: 2em;
+    padding-bottom: 4em;
+    padding-right: 2em;
+    padding-left: 2em;
+    background-color: #303d46fb;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat", "san-serif";
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
- }
-
-.diary {
     position: relative;
-    color: black;
 }
 
- .tabs {
-     position: relative;
-     padding-bottom: 20px;
-     padding-right: 10px;
-     padding-left: 10px;
-     color: white;
+ .home-link {
+     color:rgb(235, 231, 231);
+     position: left;
+     margin-left: 2em;
+     margin-top: 2.5em;
  }
 
- .opening {
-     position: relative;
-     padding-right: 20px;
-     color: white;
- }
+.opening-links {
+    position: absolute;
+    top: 25%;
+    left: 85%;
+    
+    color:rgb(235, 231, 231);
+    margin-right: 5em;
+    font-size: 20px;
+}
 
- .link {
-     color:white;
- }
 
- 
+.tabs {
+    position: relative;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgb(235, 231, 231);
+}
+
+.opening {
+    color: rgb(235, 231, 231);
+    display: inline-block;
+    padding: 0.5em;
+}
+
+
+
+
+
+
+.link {
+    color: rgb(235, 231, 231);
+}

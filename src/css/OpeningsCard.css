@@ -1,0 +1,4 @@
+.opening-card {
+    flex: 0 1 calc(33% - 1em);
+    margin: 5px;
+}

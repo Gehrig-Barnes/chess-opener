@@ -1,27 +1,8 @@
 
-
-
-
-
-/* NAVIGATION BAR */
-
-.nav-div {
-  height: 5vh;
-  color: white;
-  background-color: black;
-  align-items: center;
+* {
+  margin: 0;
 }
 
-
-/* Historic Players Container */
-
-
-/* Openings Container */
-
-
-
-/* Selected Openings Container */
-
-
-
-
+body {
+  background-color: rgb(235, 231, 231);
+}

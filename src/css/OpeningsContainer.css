@@ -1,0 +1,8 @@
+.openings-container-div {
+    border: 1em solid rgba(22, 20, 20, 0.911);
+    margin: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}

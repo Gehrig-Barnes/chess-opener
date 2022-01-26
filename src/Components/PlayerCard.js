@@ -1,34 +1,32 @@
 import '../css/PlayerCard.css'
-import React, {useState} from "react"
+import React, { useState } from "react"
 
-function PlayerCard({name, image, birthplace, years, facts}){
+function PlayerCard({ name, image, birthplace, years, facts }) {
 
     const [show, setShow] = useState(false);
 
-    function handleClick(){
+    function handleClick() {
         setShow((show) => !show)
     }
 
-    function showDetail(){
+    function showDetail() {
         if (show) {
-           return <>
+            return <>
                 <h4>{years}</h4>
                 <div>
                     <p>{facts}</p>
                 </div>
             </>
-        } 
+        }
     }
 
     return (
-
-        <div>
-            
-            <img onClick={handleClick} width="300" height="" src={image}/>
+        <div class="player-card">
+            <img onClick={handleClick} width="300" height="" src={image} />
             <h3>{name}</h3>
             <h4>{birthplace}</h4>
+            <h5>{years}</h5>
             {showDetail()}
-            
         </div>
     )
 }

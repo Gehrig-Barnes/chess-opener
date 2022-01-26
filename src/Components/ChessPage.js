@@ -1,19 +1,14 @@
 import '../css/ChessPage.css'
-import React from 'react';    
+import React from 'react';
 import OpeningsContainer from './OpeningsContainer'
 
 
-
-
-
-function ChessPage({openings, handleRemoveCard}) {
+function ChessPage({ openings, handleRemoveCard }) {
   return (
-  <div>
-    <OpeningsContainer openings={openings} handleRemoveCard={handleRemoveCard}/>
-    
-  </div>
-
+    <div>
+      <OpeningsContainer openings={openings} handleRemoveCard={handleRemoveCard} />
+    </div>
   );
 }
 
-export default ChessPage;   
+export default ChessPage;
