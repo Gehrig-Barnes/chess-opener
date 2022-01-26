@@ -15,7 +15,7 @@ function OpeningDetails() {
       .then((r) => r.json())
       .then((opening) => {
         setOpening(opening);
-        setIsLoaded(true);
+        setIsLoaded(true); 
       });
   }, [id]);
 

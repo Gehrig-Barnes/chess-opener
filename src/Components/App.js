@@ -1,26 +1,41 @@
 import '../App.css';
-import React, {useEffect, useState} from 'react';
-import Nav from './Nav'
-import ChessPage from './ChessPage'
-import OpeningDetails from "./OpeningDetails"
+import React, { useEffect, useState } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
-import SubmitOpening from './SubmitOpening'
-import {Route, Switch} from 'react-router-dom'
+import Nav from './Nav';
+import ChessPage from './ChessPage';
+
+import OpeningDetails from "./OpeningDetails";
+import SubmitOpening from './SubmitOpening';
+
+
+
 
 import Home from "./Home"
 
 function App() {
   const [players, setPlayers] = useState([])
   const [openings, setOpenings] = useState([]);
+
+  const [players, setPlayers] = useState([]);
+
   const [removeRequest, setRemoveRequest] = useState(false)
+
 
   
 
   useEffect(() => {
     fetch("http://localhost:3000/openings")
       .then((r) => r.json())
+
+      .then((data) => setOpenings(data));
+  }, []);
+
       .then((data)=> setOpenings(data));
   }, [removeRequest]);
+
+
+
 
   useEffect(() => {
     fetch("http://localhost:3000/players")
@@ -30,9 +45,13 @@ function App() {
 
 
   function handleAddOpening(newOpening){
+
+  function handleAddOpening(newOpening) {
+
     const newOpeningArray = [newOpening, ...openings];
     setOpenings(newOpeningArray)
   }
+
 
   function handleRemoveCard(card){
     fetch(`http://localhost:3000/openings/${card.id}`, {
@@ -45,30 +64,34 @@ function App() {
   
 
 
+
   return (
     <div className="App">
-       <Nav />
-       <Switch>
+      <Nav />
+      <Switch>
 
+        
         <Route path="/openings/new" component={
-          () => <SubmitOpening  onAddOpening={handleAddOpening}/> 
+          () => <SubmitOpening onAddOpening={handleAddOpening} />
         } />
 
-        <Route path="/openings/:id" component={OpeningDetails}/>
+        <Route path="/openings/:id" component={OpeningDetails} />
 
         <Route path="/openings" component={
-          () => <ChessPage openings={openings} handleRemoveCard={handleRemoveCard}/>
+
+          () => <ChessPage openings={openings} />
         } />
 
+        {/* Players */}
+        
         <Route path="/" component={
           () => <Home players={players}/>
         }/>
 
-        
-        
+
       </Switch>
-        
-      
+
+
     </div>
   );
 }

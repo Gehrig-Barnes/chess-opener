@@ -27,4 +27,4 @@ function OpeningsContainer({openings, handleRemoveCard}) {
   );
 }
 
-export default OpeningsContainer; 
+export default OpeningsContainer;  
