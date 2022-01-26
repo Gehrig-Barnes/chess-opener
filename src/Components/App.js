@@ -10,10 +10,12 @@ import { Route, Switch } from 'react-router-dom'
 
 import Home from "./Home"
 
+
 function App() {
-  const [players, setPlayers] = useState([])
+  const [players, setPlayers] = useState([]);
   const [openings, setOpenings] = useState([]);
-  const [removeRequest, setRemoveRequest] = useState(false)
+  const [removeRequest, setRemoveRequest] = useState(false);
+  
 
 
 
