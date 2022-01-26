@@ -26,6 +26,141 @@
       "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/1/bUNZSWd2.gif",
       "moves": "e4, c5, Nf3",
       "link": ""
+    },
+    {
+      "name": "King's Indian Defense",
+      "difficulty": "Medium",
+      "color": "black",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/1/bUNaUmxCIVRiczJVbkQ5Mmd2.gif",
+      "moves": "1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7 5. Nf3",
+      "link": "https://www.youtube.com/watch?v=kK0cq6UBt1Y&ab_channel=GothamChess",
+      "id": 4
+    },
+    {
+      "name": "Queen's Gambit",
+      "difficulty": "Easy",
+      "color": "white",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/bUMwS2xCMVRndg,,.gif",
+      "moves": "1. e4 (1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 Be7 5. Bg5) 1... e5 2. d4 f6 3. Nf3",
+      "link": "https://www.youtube.com/watch?v=mtsabsZ4wG4&t=128s&ab_channel=GothamChess",
+      "id": 5
+    },
+    {
+      "name": "Stafford Gambit",
+      "difficulty": "Hard",
+      "color": "black",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/1/bUMwS2d2IVR2SzVRS1FaUQ,,.gif",
+      "moves": "1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6",
+      "link": "https://www.youtube.com/watch?v=XkB4IVNaZWw&t=1935s&ab_channel=EricRosen",
+      "id": 6
+    },
+    {
+      "name": "Catalan",
+      "difficulty": "Medium",
+      "color": "white",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/bEJaSmd2IVRvdzJVZm85MmVnOCFrQQ,,.gif",
+      "moves": "1. d4 d5 2. Nf3 Nf6 3. g3 g6 4. Bg2 Bg7 5. O-O O-O 6. c4",
+      "link": "https://www.youtube.com/watch?v=nMuvv1HksL4&ab_channel=GothamChess",
+      "id": 7
+    },
+    {
+      "name": "Vienna",
+      "difficulty": "Easy",
+      "color": "white",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/bUMwS2JzNVFmQSFUbHQ,.gif",
+      "moves": "1. e4 e5 2. Nc3 Nc6 3. Bc4 Nf6 4. d3 ",
+      "link": "https://www.youtube.com/watch?v=JVxENCPcCjU&ab_channel=GothamChess",
+      "id": 8
+    },
+    {
+      "name": "London",
+      "difficulty": "Easy",
+      "color": "white",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/bEJaSmNEIVRtdQ,,.gif",
+      "moves": "1. d4 d5 2. Bf4 Nf6 3. e3 ",
+      "link": "https://www.youtube.com/watch?v=49H728S_VjM&ab_channel=GothamChess",
+      "id": 9
+    },
+    {
+      "name": "Caro-Kann Defense",
+      "difficulty": "Hard",
+      "color": "black",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/1/bUNZUWxCWko,.gif",
+      "moves": "1. e4 c6 2. d4 d5",
+      "link": "https://www.youtube.com/watch?v=rmbU97iftC8&t=396s&ab_channel=GothamChess",
+      "id": 10
+    },
+    {
+      "name": "French Defense",
+      "difficulty": "Hard",
+      "color": "",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/1/bUMwU2xCWko,.gif",
+      "moves": "1. e4 e6 2. d4 d5 ",
+      "link": "https://www.youtube.com/watch?v=5pec-u6PSvA&ab_channel=GothamChess",
+      "id": 11
+    },
+    {
+      "name": "Petrov Defense",
+      "difficulty": "Hard",
+      "color": "black",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/1/bUMwS2d2IVQ,.gif",
+      "moves": "1. e4 e5 2. Nf3 Nf6 ",
+      "link": "https://www.youtube.com/watch?v=DyDVQPwk6fY&ab_channel=thechesswebsite",
+      "id": 12
+    },
+    {
+      "name": "Grob Gambit",
+      "difficulty": "Hard",
+      "color": "white",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/b0VaSmZvNkU,.gif",
+      "moves": "1. g4 d5 2. Bg2 Bxg4",
+      "link": "https://www.youtube.com/watch?v=5t6CN028XqM&ab_channel=thechesswebsite",
+      "id": 13
+    },
+    {
+      "name": "Berlin Defense",
+      "difficulty": "Medium",
+      "color": "black",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/1/bUMwS2ZBIVQ,.gif",
+      "moves": "1. e4 e5 2. Bc4 Nf6",
+      "link": "https://www.youtube.com/watch?v=rbBKCl6X5f8&ab_channel=CoachKestony",
+      "id": 14
+    },
+    {
+      "name": "Urusov Gambit",
+      "difficulty": "Hard",
+      "color": "white",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/bUMwS2ZBIVRsQg,,.gif",
+      "moves": "1. e4 e5 2. Bc4 Nf6 3. d4",
+      "link": "https://www.youtube.com/watch?v=dxUuueHFfFs&ab_channel=SaintLouisChessClub",
+      "id": 15
+    },
+    {
+      "name": "Trompowsky",
+      "difficulty": "Hard",
+      "color": "white",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/bEIhVGNN.gif",
+      "moves": "1. d4 Nf6 2. Bg5",
+      "link": "https://www.youtube.com/watch?v=79-toxo-ebU&ab_channel=GothamChess",
+      "id": 16
+    },
+    {
+      "name": "English",
+      "difficulty": "Easy",
+      "color": "white",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/0/a0E,.gif",
+      "moves": "1. c4",
+      "link": "https://www.youtube.com/watch?v=va0s92praEM&t=208s&ab_channel=GothamChess",
+      "id": 17
+    },
+    {
+      "name": "Accelerated Dragon",
+      "difficulty": "Medium",
+      "color": "black",
+      "image": "https://images.chesscomfiles.com/uploads/game-gifs/90px/green/neo/0/cc/0/1/bUNZSWd2NVFsQklCdkIyVWJzOTI,.gif",
+      "moves": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Nc3 Bg7",
+      "link": "https://www.youtube.com/watch?v=13Y4QR_-Upc&ab_channel=SaintLouisChessClub",
+      "id": 18
     }
   ],
   "players": [
