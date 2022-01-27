@@ -10,11 +10,21 @@ import { Route, Switch } from 'react-router-dom'
 
 import Home from "./Home"
 
+import LoginForm from "./LoginForm"
+
 
 function App() {
   const [players, setPlayers] = useState([]);
   const [openings, setOpenings] = useState([]);
   const [removeRequest, setRemoveRequest] = useState(false);
+  const [users, setUsers] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:3000/users")
+      .then((r) => r.json())
+      .then((data) => setUsers(data));
+      
+  }, []);
   
 
 
@@ -50,22 +60,58 @@ function App() {
 
   return (
     <div className="App">
-      <Nav />
 
       <Switch>
         <Route path="/openings/new" component={
-          () => <SubmitOpening onAddOpening={handleAddOpening} />
+          () => {
+          return(<>
+            <Nav />
+            <SubmitOpening onAddOpening={handleAddOpening} />
+          </>)
+        }
+
         } />
 
         <Route path="/openings/:id" component={OpeningDetails} />
 
         <Route path="/openings" component={
-          () => <ChessPage openings={openings} handleRemoveCard={handleRemoveCard} />
+          () => {
+          return ( 
+            <>
+              <Nav />
+              <ChessPage openings={openings} handleRemoveCard={handleRemoveCard} />
+            </>
+          )
+        }
+        } />
+
+        <Route path="/home" component={
+          () => {
+          return (
+          <>
+            <Nav/>
+            <Home players={players} />
+          </>
+          )
+        }
         } />
 
         <Route path="/" component={
-          () => <Home players={players} />
+          () => <LoginForm users={users}/>
         } />
+
+        
+
+        //how do you persist that login through interaction and state? 
+        //once you refresh the page that login is gone. 
+        //local storage?
+
+        //taking what user wrote on form. 
+        //fetch in parent component. use a .find for userState
+        ///once we refresh, state is cleared out.
+        //when you login, setcurrent user id to local storage locastorage.setID
+        //basic patern. When you login, you set to local storage. 
+        //when logout, localstorage = '' 
       </Switch>
 
       <Footer />

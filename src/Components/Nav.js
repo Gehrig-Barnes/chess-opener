@@ -7,7 +7,7 @@ function Nav() {
   return (
     <header class="navBar">
       <div class="home-link">
-        <Link class="link" to="/">
+        <Link class="link" to="/home">
           <h1>Chess Diary</h1>
         </Link>
       </div>
