@@ -12,7 +12,6 @@ function PlayerCard({ name, image, birthplace, years, facts }) {
     function showDetail() {
         if (show) {
             return <>
-                <h4>{years}</h4>
                 <div>
                     <p>{facts}</p>
                 </div>

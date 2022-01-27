@@ -243,6 +243,22 @@
       "birthplace": "Moscow, Russia",
       "years": "October 31, 1892 - March 24, 1946",
       "facts": "Alexander Alekhine was the fourth official world champion and held the title from 1927 to 1946 (with an exception during 1935-1937). He was a brilliant and well-rounded player with a special ability for combinational play in complex positions. He also taught the chess world that rules and principles can be broken based on concrete analysis of the specific and unique position. Alekhine became world champion by defeating Jose Raul Capablanca in 1927, despite being a large underdog (he had never won a single game against Capablanca before the match). Alekhine's reign as world champion was long, but he successfully defended his title only twice (both times against GM Efim Bogoljubow in 1929 and 1934). Capablanca and Alekhine never had a rematch for the world championship due to various reasons. Alekhine faced GM Max Euwe for the world championship in 1935 and surprisingly lost the match. Two years later Alekhine won the rematch against Euwe to earn the crown back, but he would never defend it again. He passed away in 1946 as the world champion, the only champion ever to do so (although he was finalizing the details to play a match with Botvinnik)."
+    },
+    {
+      "id": "11",
+      "name": "Gehrig \"Big Papi\" Barnes",
+      "image": "https://media-exp1.licdn.com/dms/image/C4E03AQHBF5b1a7ibvA/profile-displayphoto-shrink_200_200/0/1641478357354?e=1648684800&v=beta&t=z89xGQpBmZhXBvY5-GJQCBJcl0-40_-sh-UYuB3yRjo",
+      "birthplace": "Philly!",
+      "years": "Year 1 A.D. - PRESENT",
+      "facts": "Pretty darn good."
+    },
+    {
+      "id": "12",
+      "name": "Ethan \"Lil' Papi\" Freeman",
+      "image": "https://images.chesscomfiles.com/uploads/v1/article/16552.2d42c0ea.668x375o.0b1d53005aae@2x.jpeg",
+      "birthplace": "The H at the bottom of the map",
+      "years": "February 11, 1994 - PRESENT",
+      "facts": "...on the rise"
     }
   ]
 }

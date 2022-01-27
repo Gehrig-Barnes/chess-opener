@@ -11,4 +11,11 @@ img {
     margin: 5px;
 }
 
+ h3 {
+     font-size: 1.5em;
+     font-weight: bold;
+     color: rgb(8, 0, 29);
+     /* background-color: rgba(15, 138, 155, 0.603); */
+ }
+
  

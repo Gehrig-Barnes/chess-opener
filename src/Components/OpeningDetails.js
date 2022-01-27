@@ -25,12 +25,12 @@ console.log(opening)
 
   return (
   <div>
-    <img src={opening.image}/>
+    <img class="img"src={opening.image}/>
     <h2>{opening.name}</h2>
     <h4>difficulty: {opening.difficulty}</h4>
     <h4>color: {opening.color}</h4>
     <h4>Moves: {opening.moves}</h4>
-    <iframe width="420" height="315"
+    <iframe class="iframe" width="1000" height="666"
       src={opening.link}>
     </iframe>
     
