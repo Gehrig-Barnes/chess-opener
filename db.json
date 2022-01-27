@@ -260,5 +260,19 @@
       "years": "February 11, 1994 - PRESENT",
       "facts": "...on the rise"
     }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "name": "gehrig",
+      "password": "123"
+      
+    },
+    {
+      "id": 2,
+      "name": "louis",
+      "password": "1234"
+    }
   ]
 }
