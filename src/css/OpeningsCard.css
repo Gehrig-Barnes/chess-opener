@@ -1,4 +1,27 @@
 .opening-card {
     flex: 0 1 calc(33% - 1em);
     margin: 5px;
+
+    border: 5px solid black;
+}
+
+.nameDiv {
+    margin: 2em;
+    border: 5px solid black;
+
+    text-align: center;
+}
+
+.imgDiv {
+    margin: 2em;
+    border: 5px solid black;
+
+    text-align: center;
+}
+
+.bottomButtons {
+    margin: 2em;
+    border: 5px solid black;
+
+    text-align: center;
 }

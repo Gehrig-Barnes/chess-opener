@@ -1,0 +1,54 @@
+
+.page {
+    background-image: url(/Users/ethanfreeman/chess-opener/src/Images/chess_board.jpeg);
+    opacity: 0.90;
+    background-size: cover;
+    height: 100vh;
+    
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+
+.borderDiv {
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+    background-color: rgb(8, 6, 133);
+
+}
+
+.form {
+    height: 100%;
+
+    border: 3px solid white;
+
+    padding: 5em; 
+    padding-left: 5em;
+
+    color: rgba(22, 18, 18, 0.726);
+
+    background-color: rgba(175, 239, 241, 0.623);
+
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    margin-top: -1em;
+}
+
+.inputAddOpening {
+    margin: 1em;
+    margin-right: 2em;
+    font-size: 1em;
+}
+
+.submit {
+    font-size: 1em;
+    margin-top: 1.5em;
+}

@@ -23,9 +23,9 @@ function App() {
     fetch("http://localhost:3000/users")
       .then((r) => r.json())
       .then((data) => setUsers(data));
-      
+
   }, []);
-  
+
 
 
 
@@ -59,16 +59,16 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" src="src/Images/chess_board.jpeg">
 
       <Switch>
         <Route path="/openings/new" component={
           () => {
-          return(<>
-            <Nav />
-            <SubmitOpening onAddOpening={handleAddOpening} />
-          </>)
-        }
+            return (<>
+              <Nav />
+              <SubmitOpening onAddOpening={handleAddOpening} />
+            </>)
+          }
 
         } />
 
@@ -76,42 +76,42 @@ function App() {
 
         <Route path="/openings" component={
           () => {
-          return ( 
-            <>
-              <Nav />
-              <ChessPage openings={openings} handleRemoveCard={handleRemoveCard} />
-            </>
-          )
-        }
+            return (
+              <>
+                <Nav />
+                <ChessPage openings={openings} handleRemoveCard={handleRemoveCard} />
+              </>
+            )
+          }
         } />
 
         <Route path="/home" component={
           () => {
-          return (
-          <>
-            <Nav/>
-            <Home players={players} />
-          </>
-          )
-        }
+            return (
+              <>
+                <Nav />
+                <Home players={players} />
+              </>
+            )
+          }
         } />
 
         <Route path="/" component={
-          () => <LoginForm users={users}/>
+          () => <LoginForm users={users} />
         } />
 
-        
 
-        //how do you persist that login through interaction and state? 
-        //once you refresh the page that login is gone. 
-        //local storage?
 
-        //taking what user wrote on form. 
-        //fetch in parent component. use a .find for userState
-        ///once we refresh, state is cleared out.
-        //when you login, setcurrent user id to local storage locastorage.setID
-        //basic patern. When you login, you set to local storage. 
-        //when logout, localstorage = '' 
+        //how do you persist that login through interaction and state?
+      //once you refresh the page that login is gone. 
+      //local storage?
+
+      //taking what user wrote on form. 
+      //fetch in parent component. use a .find for userState
+      ///once we refresh, state is cleared out.
+      //when you login, setcurrent user id to local storage locastorage.setID
+      //basic patern. When you login, you set to local storage. 
+      //when logout, localstorage = '' 
       </Switch>
 
       <Footer />

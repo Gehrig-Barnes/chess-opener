@@ -4,58 +4,43 @@
 
 
  .navBar {
-    /* border: 1px solid white; */
-    padding-top: 2em;
-    padding-bottom: 4em;
-    padding-right: 2em;
-    padding-left: 2em;
-    background-color: #303d46fb;
-    display: flex;
-    justify-content: space-between;
-    font-family: "Montserrat", "san-serif";
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    position: relative;
+    border: 3px solid rgb(41, 41, 141);
+    border-bottom: 7px solid rgb(41, 41, 141);
+
+    height: 10vh;
+    background-color: rgb(0, 2, 73);
 }
 
- .home-link {
-     color:rgb(235, 231, 231);
-     position: left;
-     margin-left: 2em;
-     margin-top: 2.5em;
- }
-
-.opening-links {
-    position: absolute;
-    top: 25%;
-    left: 85%;
+.leftDiv {
+    display: inline-block;
     
-    color:rgb(235, 231, 231);
-    margin-right: 5em;
-    font-size: 20px;
+    padding-left: 5em;
+    padding-top: 1.33em;
 }
 
+.rightDiv {    
+    float: right;
+    height: 10vh;
+    padding-top: 0.83em;
+    
+}
 
 .tabs {
-    position: relative;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
-    color: rgb(235, 231, 231);
+    padding-top: 2em;
+    padding-right: 3em;
+
+    height: 10vh;
 }
 
 .opening {
-    color: rgb(235, 231, 231);
-    display: inline-block;
-    padding: 0.5em;
+    padding: 2em;
+
+    font-size: 25px;
+    color:rgb(235, 231, 231);
 }
 
-
-
-
-
-
 .link {
+    padding: 3em;
     color: rgb(235, 231, 231);
+
 }

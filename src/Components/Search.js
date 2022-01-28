@@ -1,15 +1,16 @@
+import '../css/Search.css'
 import React from 'react';
 
-function Search({handleSearch}){
+function Search({ handleSearch }) {
     return (
-        <div>
-            <div >
-                <div >
-                    <input onChange={handleSearch}/>
-                    <i />
-                </div>
+        <div class="outerBorder">
+            <div class="border">
+                <input
+                    class="input"
+                    onChange={handleSearch}
+                    placeholder="  Search..."/>
+                <i />
             </div>
-               
         </div>
     )
 }

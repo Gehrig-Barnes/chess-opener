@@ -21,11 +21,11 @@ function filterSearch(){
 }
 
   return (
-    <div>
+    <div class="div">
       <Search handleSearch={handleSearch}/>
       <OpeningsContainer openings={filterSearch()} handleRemoveCard={handleRemoveCard} />
     </div>
   );
 }
 
-export default ChessPage;
+export default ChessPage; 
