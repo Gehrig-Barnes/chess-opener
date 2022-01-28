@@ -43,7 +43,7 @@ function SubmitOpening({ onAddOpening }) {
           <section class="insert">
             <form onSubmit={handleSubmit}>
               <h3 class="title">Add New Opening</h3>
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Name:</label>
               <input
                 class="inputAddOpening"
                 type="text"
@@ -53,7 +53,7 @@ function SubmitOpening({ onAddOpening }) {
                 onChange={(e) => setName(e.target.value)}
 
               />
-              <label htmlFor="difficulty">Difficulty</label>
+              <label htmlFor="difficulty">Difficulty:</label>
               <select
                 class="inputAddOpening"
                 name="difficulty"
@@ -61,13 +61,13 @@ function SubmitOpening({ onAddOpening }) {
                 value={difficulty}
                 onChange={(e) => setDifficulty(e.target.value)}
               >
-                <option>select</option>
+                <option>select:</option>
                 <option>Easy</option>
                 <option>Medium</option>
                 <option>Hard</option>
               </select>
 
-              <label htmlFor="">Color</label>
+              <label htmlFor="">Color:</label>
               <select
                 class="inputAddOpening"
                 name='color'
@@ -75,12 +75,12 @@ function SubmitOpening({ onAddOpening }) {
                 value={difficulty}
                 onChange={(e) => setColor(e.target.value)}
               >
-                <option>select</option>
+                <option>select:</option>
                 <option>white</option>
                 <option>black</option>
               </select>
 
-              <label htmlFor="image">Image</label>
+              <label htmlFor="image">Image:</label>
               <input
                 class="inputAddOpening"
                 type="text"
@@ -90,7 +90,7 @@ function SubmitOpening({ onAddOpening }) {
                 onChange={(e) => setImage(e.target.value)}
               />
 
-              <label htmlFor="moves">Moves</label>
+              <label htmlFor="moves">Moves:</label>
               <input
                 class="inputAddOpening"
                 type="text"
@@ -100,7 +100,7 @@ function SubmitOpening({ onAddOpening }) {
                 onChange={(e) => setMoves(e.target.value)}
               />
 
-              <label htmlFor="link">Link</label>
+              <label htmlFor="link">Link:</label>
               <input
                 class="inputAddOpening"
                 type="text"
