@@ -8,7 +8,7 @@ function OpeningDetails() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   const { id } = useParams();
-
+  const history = useHistory();
 
   useEffect(() => {
     fetch(`http://localhost:3000/openings/${id}`)
@@ -26,6 +26,7 @@ function OpeningDetails() {
   return (
     <div>
       <div class="infoDiv">
+        <Link onClick={() => history.goBack()}>Go Back</Link>
         <h2>{opening.name}</h2>
         <h4>difficulty: {opening.difficulty}</h4>
         <h4>color: {opening.color}</h4>
