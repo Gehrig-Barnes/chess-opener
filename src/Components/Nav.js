@@ -15,6 +15,7 @@ function Nav() {
         <nav class="tabs">
           <Link class="opening" to="/openings">Show Openings </Link>
           <Link class="opening" to="/openings/new">  Add New</Link>
+          <Link class="opening" to="/">Log out</Link>
         </nav>
       </div>
     </header>

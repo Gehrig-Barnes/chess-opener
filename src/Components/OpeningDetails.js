@@ -8,6 +8,8 @@ function OpeningDetails() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   const {id} = useParams();
+
+  const history = useHistory();
   
 
   useEffect(() => {
@@ -27,6 +29,7 @@ console.log(opening)
   <div>
     <img class="img"src={opening.image}/>
     <h2>{opening.name}</h2>
+    <Link onClick={() => history.goBack()}>Go Back</Link>
     <h4>difficulty: {opening.difficulty}</h4>
     <h4>color: {opening.color}</h4>
     <h4>Moves: {opening.moves}</h4>
