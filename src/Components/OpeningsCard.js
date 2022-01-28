@@ -17,16 +17,24 @@ function OpeningsCard({ name, difficulty, color, image, moves, link, id, handleR
         <h3>{name}</h3>
       </div>
       <div class="imgDiv">
-        <img width="150" height="150" src={image} />
+        <img
+          src={image}
+          class="openingImage" />
       </div>
       <div class="bottomButtons">
         <p>
-          <Link to={`openings/${id}`}>See more</Link>
+          <Link
+            to={`openings/${id}`}
+            id="seeMore">
+            See more
+          </Link>
         </p>
-        <button onClick={() => handleRemoveCard(opening)}>remove</button>
+        <button
+          id="removeButton"
+          onClick={() => handleRemoveCard(opening)}>remove</button>
       </div>
     </div>
   );
 }
 
-export default OpeningsCard;  
+export default OpeningsCard;

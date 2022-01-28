@@ -12,7 +12,7 @@ function PlayerCard({ name, image, birthplace, years, facts }) {
     function showDetail() {
         if (show) {
             return <>
-                <div>
+                <div class="factsDiv">
                     <p>{facts}</p>
                 </div>
             </>
@@ -22,10 +22,12 @@ function PlayerCard({ name, image, birthplace, years, facts }) {
     return (
         <div class="player-card">
             <img onClick={handleClick} width="300" height="" src={image} />
-            <h3>{name}</h3>
-            <h4>{birthplace}</h4>
-            <h5>{years}</h5>
-            {showDetail()}
+            <div class="contents">
+                <h3>{name}</h3>
+                <h4>{birthplace}</h4>
+                <h5>{years}</h5>
+                {showDetail()}
+            </div>
         </div>
     )
 }
