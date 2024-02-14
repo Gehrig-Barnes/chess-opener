@@ -1,21 +1,14 @@
-import '../css/LoginForm.css'
-
-import React, { useState, useEffect } from 'react';
-import { Link, NavLink, useHistory } from 'react-router-dom'
-
-
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 function LoginForm({ users }) {
-    //create states for name and passwords || one state as a JS object
-
     const [userName, setUserName] = useState(localStorage.getItem("userName") || "");
     const [password, setPassword] = useState(localStorage.getItem("password") || "");
-    const [status, setStatus] = useState("pending")
+    const [status, setStatus] = useState("pending");
     const history = useHistory();
 
     localStorage.setItem('userName', userName);
     localStorage.setItem('password', password);
-
 
     function manageUserName(e) {
         const value = e.target.value;
@@ -30,29 +23,23 @@ function LoginForm({ users }) {
     function manageLogin(e) {
         e.preventDefault();
 
-        users.map((user) => {
-            // console.log(user.name)
-            // console.log(user.password)
-            if (user.name === userName && user.password === password) {
-                history.push("/home")
-            } else {
-                setStatus("rejected")
-            }
-        })
+        const foundUser = users.find(user => user.name === userName && user.password === password);
+        if (foundUser) {
+            history.push("/home");
+        } else {
+            setStatus("rejected");
+        }
     }
 
     function manageRejection() {
         return (
             <h2>User Not Found</h2>
-        )
+        );
     }
 
-
     return (
-        <div class="loginDiv">
-            <form 
-            class="loginForm"
-            onSubmit={manageLogin}>
+        <div className="loginDiv">
+            <form className="loginForm" onSubmit={manageLogin}>
                 <label>
                     <input onChange={manageUserName} type="text" placeholder='name' value={userName}></input>
                     <input onChange={managePassword} type="text" placeholder="password" value={password}></input>
@@ -61,7 +48,7 @@ function LoginForm({ users }) {
             </form>
             {status === "rejected" && manageRejection()}
         </div>
-    )
+    );
 }
 
 export default LoginForm;

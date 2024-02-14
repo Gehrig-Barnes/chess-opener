@@ -1,10 +1,9 @@
-import '../css/OpeningDetails.css'
+import '../css/OpeningDetails.css';
 import React, { useEffect, useState } from "react";
 import { useParams, useHistory, Link } from 'react-router-dom';
 
-
 function OpeningDetails() {
-  const [opening, setOpening] = useState(null)
+  const [opening, setOpening] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
 
   const { id } = useParams();
@@ -21,29 +20,27 @@ function OpeningDetails() {
 
   if (!isLoaded) return <h2>Loading...</h2>;
 
-  console.log(opening)
+  console.log(opening);
 
   return (
     <div>
-      <div class="infoDiv">
+      <div className="infoDiv">
         <Link onClick={() => history.goBack()}>Go Back</Link>
         <h2>{opening.name}</h2>
-        <h4>difficulty: {opening.difficulty}</h4>
-        <h4>color: {opening.color}</h4>
+        <h4>Difficulty: {opening.difficulty}</h4>
+        <h4>Color: {opening.color}</h4>
         <h4>Moves: {opening.moves}</h4>
       </div>
       <div>
         <div>
-          <img class="img" src={opening.image} />
+          <img className="img" src={opening.image} alt={opening.name} />
         </div>
         <div>
-          <iframe class="iframe" width="1000" height="666"
-            src={opening.link}>
-          </iframe>
+          <iframe className="iframe" width="1000" height="666" src={opening.link} title="Embedded Content"></iframe>
         </div>
       </div>
     </div>
   );
 }
 
-export default OpeningDetails; 
+export default OpeningDetails;

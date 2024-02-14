@@ -21,7 +21,8 @@ function PlayerCard({ name, image, birthplace, years, facts }) {
 
     return (
         <div class="player-card">
-            <img onClick={handleClick} width="300" height="" src={image} />
+            {/* Add alt attribute with meaningful text */}
+            <img onClick={handleClick} width="300" height="" src={image} alt={name} />
             <div class="contents">
                 <h3>{name}</h3>
                 <h4>{birthplace}</h4>

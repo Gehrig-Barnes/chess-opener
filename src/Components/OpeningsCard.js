@@ -1,27 +1,21 @@
 import '../css/OpeningsCard.css'
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom"
 
-function OpeningsCard({ name, difficulty, color, image, moves, link, id, handleRemoveCard, opening }) {
-  const [remove, setRemove] = useState(false);
-
-  function handleRemove() {
-    setRemove((remove) => !remove)
-  }
-
-
+function OpeningsCard({ name, image, id, handleRemoveCard, opening }) {
 
   return (
-    <div class="opening-card">
-      <div class="nameDiv">
+    <div className="opening-card">
+      <div className="nameDiv">
         <h3>{name}</h3>
       </div>
-      <div class="imgDiv">
+      <div className="imgDiv">
         <img
           src={image}
-          class="openingImage" />
+          className="openingImage"
+          alt={name} /> {/* Providing alt attribute with meaningful text */}
       </div>
-      <div class="bottomButtons">
+      <div className="bottomButtons">
         <p>
           <Link
             to={`openings/${id}`}
